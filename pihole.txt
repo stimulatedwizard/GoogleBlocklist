@@ -1,21 +1,7 @@
-# Title: TimedIn/pihole-full-privacy
+# Title: simultatedwizard/GoogleBlocklist
 #
-# This is an agressive blocklist for non privacy services (will definitely break a lot of apps and websites)
-# Not containing typical advertisers and trackers already blocked by default blocklists
+# This is a blocklist for the google search engine and Microsoft services
 
-##########################Amazon###########################
-m.media-amazon.com
-www.amazon.de
-www.amazon.com
-##########################Cloudflare#######################
-cloudflare.com
-##########################Facebook#########################
-facebook.net
-#[*.facebook.com]
-facebook.com
-www.facebook.com
-star-mini.c10r.facebook.com
-graph.facebook.com
 ##########################Google###########################
 app-measurement.com
 googleadservices.com
@@ -322,58 +308,3 @@ skype.com
 www.skype.com
 onedrive.com
 www.onedrive.com
-##########################TikTok(Bytedance)################
-#[*.tiktok.com]
-tiktok.com
-www.tiktok.com
-mcs-va.tiktok.com
-#[*.byteoversea.com]
-mon-va.byteoversea.com
-#[*.tiktokcdn.com]
-p16-sign-sg.tiktokcdn.com
-p16-sign-va.tiktokcdn.com
-p77-sign-va.tiktokcdn.com
-s20-sign-va.tiktokcdn.com
-#[*.ibytedtos.com]
-sf16-scmcdn-va.ibytedtos.com
-#[*.bytedapm.com]
-sf16-short-va.bytedapm.com
-##########################Twitter##########################
-twitter.com
-www.twitter.com
-t.co
-
-#[*.twimg.com]
-pbs.twimg.com
-##########################Xiaomi(Huami)####################
-mi.com
-www.mi.com
-xiaomi.com
-www.xiaomi.com
-#[*.huami.com]
-huami.com
-www.huami.com
-api-mifit-de2.huami.com
-#[*.mi.com]
-de.ot.io.mi.com
-de.ots.io.mi.com
-##########################Yandex###########################
-#[*.yandex.*]
-yandex.com
-www.yandex.com
-search.yandex.com
-appmetrica.yandex.com
-extmaps-api.yandex.net
-yandex.ru
-search.yandex.ru
-yandex.net
-search.yandex.net
-##########################Youtube(Google)##################
-youtube.com
-www.youtube.com
-accounts.youtube.com
-youtu.be
-youtubeeducation.com
-youtube-nocookie.com
-yt.be
-###########################################################
